@@ -1,7 +1,8 @@
-
 int fetch(int array[], int index)
 {
-    return array[index];
+    int * newInt = new int;
+    *newInt = array[index];
+    return *newInt;
 }
 
 int main()
