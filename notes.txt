@@ -1,2 +1,6 @@
 export ASAN_SYMBOLIZER_PATH=`which llvm-symbolizer`
 clang++ -g -fsanitize=address,fuzzer demo.cpp && ./a.out
+
+cppcheck
+qtcreator
+QT_SCALE_FACTOR=1.5 qt
